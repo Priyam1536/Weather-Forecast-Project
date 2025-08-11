@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="app">
+    <button id="themeToggle" class="theme-toggle" title="Toggle Dark Mode">🌙</button>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Search for a city..." />
+    </div>
+
+    <div id="weatherDisplay" class="weather hidden">
+      <div class="current">
+        <img id="weatherIcon" alt="Weather icon" />
+        <h1 id="temperature">--°C</h1>
+        <p id="description"></p>
+      </div>
+      <div class="details">
+        <div><span>High</span><p id="highTemp">--°</p></div>
+        <div><span>Low</span><p id="lowTemp">--°</p></div>
+        <div><span>Wind</span><p id="wind">-- kph</p></div>
+        <div><span>Rain</span><p id="rainChance">--%</p></div>
+      </div>
+      <h2>Hourly Forecast</h2>
+      <div id="hourlyForecast" class="hourly"></div>
+    </div>
+
+    <div id="errorMsg" class="error hidden">
+      <p>⚠ Couldn’t load weather. Try another city.</p>
+    </div>
+  </div>
+</body>
+</html>
