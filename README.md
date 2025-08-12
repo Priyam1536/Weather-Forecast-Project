@@ -75,7 +75,7 @@ Weather-Forecast-Project/
 **Priyam Sharma**  
 Aspiring Computer Science Professional and Learner
 📧 [priyamsharma153006@gmail.com](mailto:priyamsharma153006@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/priyam1536)  
+🔗 [LinkedIn](www.linkedin.com/in/priyam-sharma-0a4952322)  
 💻 [GitHub](https://github.com/Priyam1536)
 
 ---
