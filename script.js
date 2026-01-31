@@ -1,4 +1,4 @@
-const apiKey = "REPLACE WITH YOUR WEATHERAPI KEY"; // api key from weatherapi.com
+const apiKey = "REPLACE WITH YOUR OPENWEATHER API KEY"; // api key from openweathermap.org
 const cityInput = document.getElementById("cityInput"); 
 const weatherDisplay = document.getElementById("weatherDisplay");
 const errorMsg = document.getElementById("errorMsg");
